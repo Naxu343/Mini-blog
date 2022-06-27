@@ -1,0 +1,120 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/*con esta linea se reinicia los margenes y rellenos entre lineas*/
+
+
+body {
+    font-family: sans-serif;
+    text-align: center;
+
+}
+
+h1 {
+    font-size: 50px;
+    font-weight: bold;
+}
+
+h2 {
+    font-size: 20px;
+    font-weight: bold;
+
+
+}
+
+h3 {
+    font-size: 15px;
+    font-weight: bold;
+
+}
+
+.header {
+    padding: 15px;
+    background-color: #dfe6e9;
+    text-align: left;
+
+}
+
+.navegacion {
+    padding: 5px 15px;
+    background-color: #636e72;
+}
+
+.navegacion li {
+    list-style: none;
+    display: inline;
+    padding: 0px 120px;
+    font-family: verdana;
+}
+
+.articulo {
+    text-align: left;
+    padding: 30px 15px;
+    background-color: #ecf0f1;
+    border: 1px solid black;
+    margin-top: 30px;
+    margin-right: 300px;
+    margin-left: 25px;
+
+
+
+}
+
+.comentarios {
+    border: 1px solid black;
+    margin: 25px 40px;
+    padding: 10px 10px;
+
+
+}
+
+.lateral {
+    text-align: right;
+}
+
+
+
+
+header,
+section,
+article,
+footer,
+nav,
+aside,
+hgroup {
+    display: block;
+
+}
+
+.caja {
+    border: 2px solid black;
+    width: 1024px;
+    margin: 30px auto;
+    background-color: #b2bec3;
+    /*en la funcion margin al el primer valor afecta al eje Y y el segundo al eje X*/
+
+}
+
+.nav {
+    color: #81ecec;
+}
+
+.mensajes {
+    color: #2d3436;
+}
+
+.lateral {
+    float: right;
+    border: 1px solid black;
+    padding: 20px 20px;
+    height: 200;
+    margin: 20px 20px;
+    background-color: #ecf0f1;
+    width: 200px;
+}
+
+.pie {
+    clear: both;
+}
